@@ -100,11 +100,83 @@ section{
     border-radius: 40px;
 }
 
-
-#about{
-    height: 700px;
-    background-color: aqua;
+/* About Section */
+.section-about{
+    position: relative;
+    height: auto;
+    padding: 30px 0px;
+    color: hsl(350, 58%, 50%);
+    background-image: url("img/rm347-porpla-02-a-01.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
 }
+.profile-img{
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.info-text{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    text-align: justify;
+    line-height: 1.6;
+}
+.below-img{ 
+    font-size: 30px;
+    clear: both;
+}
+.education-list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+.education-list h3{
+    font-size: 45px;
+    font-weight: 400;
+}
+.education-list p{
+    font-size: 28px;
+    font-weight: 200;
+    text-align: justify;
+}
+.edu-item{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 4px solid hsl(74, 84%, 34%);
+    padding: 15px 0px;
+    margin-bottom: 5px;
+}
+.edu-duration{
+    font-size: 30px;
+    color:hsl(338, 100%, 37%);
+    font-style: italic;
+    margin-bottom: 5px;
+}
+.about-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    gap: 20px;
+}
+.section-about h2{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+.language-list li{
+    font-size: 25px;
+    list-style: circle;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+
+
 
 /* Projects Section*/
 #projects{
